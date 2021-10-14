@@ -1,0 +1,23 @@
+{
+  "name": "pig_game_parcel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html --out-dir ./dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "install": "^0.13.0",
+    "npm": "^8.0.0",
+    "parcel": "^1.12.3",
+    "parcel-plugin-static-files-copy": "^2.6.0"
+  },
+  "dependencies": {
+    "core-js": "^2.6.12"
+  }
+}
